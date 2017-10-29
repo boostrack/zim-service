@@ -8,9 +8,9 @@ pipeline {
             sh 'ls -lah'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
-            sh 'docker ps'
+            sh 'ls -lah '
           }
         }
       }
